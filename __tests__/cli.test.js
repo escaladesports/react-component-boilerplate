@@ -10,7 +10,7 @@ describe(`React component inject`, () => {
 	let browser
 	let page
 	beforeAll(async () => {
-		await copy(`./__tests__/inject.html`, `./dist-bundle/inject.html`)
+		await copy(`./__tests__/inject.html`, `./dist-bundle/index.html`)
 		server = new Server({
 			rootPath: `dist-bundle`,
 			port: await getPort(),
@@ -18,7 +18,7 @@ describe(`React component inject`, () => {
 		server.start()
 		browser = await puppeteer.launch({ args: ['--no-sandbox'] })
 		page = await browser.newPage()
-		await page.goto(`http://localhost:${server.port}/inject.html`)
+		await page.goto(`http://localhost:${server.port}`)
 		await page.waitForSelector(`.TestComponent`)
 	})
 	it(`Should have text content`, async () => {
