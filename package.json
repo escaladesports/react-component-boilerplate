@@ -15,6 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build": "esca-scripts build",
+    "bundle": "esca-scripts bundle --src src/inject.js --dist dist-bundle",
     "dev": "esca-scripts dev",
     "prepublishOnly": "npm run build",
     "reset": "esca-scripts reset",
@@ -22,7 +23,7 @@
     "travis": "opn https://travis-ci.org/escaladesports/react-component-boilerplate/branches"
   },
   "devDependencies": {
-    "esca-scripts": "^1.1.15",
+    "esca-scripts": "^1.1.16",
     "opn-cli": "^3.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"

@@ -2205,9 +2205,9 @@ es-to-primitive@^1.1.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.1"
 
-esca-scripts@^1.1.15:
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/esca-scripts/-/esca-scripts-1.1.15.tgz#ef9fd90542ff53620e61b9383b11e7820870e665"
+esca-scripts@^1.1.16:
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/esca-scripts/-/esca-scripts-1.1.16.tgz#013fe9602d30da3cf04783b52cbc235bec36c1d1"
   dependencies:
     babel-cli "^6.26.0"
     babel-core "^6.26.0"
