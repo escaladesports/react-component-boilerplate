@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default class extends React.Component {
-	render(){
+class TestComponent extends React.Component {
+	render() {
 		return (
 			<div className='TestComponent'>
 				Test component.
@@ -14,3 +14,5 @@ export default class extends React.Component {
 		)
 	}
 }
+
+export default TestComponent

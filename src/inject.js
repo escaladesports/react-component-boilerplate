@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import Src from './'
 
-function inject(){
+function inject() {
 	// Inject to any any tag with "data-inject" attribute
 	let els = document.querySelectorAll(`[data-inject]`)
 	for (let i = els.length; i--;) {
@@ -16,4 +16,5 @@ function inject(){
 // Initial injection
 inject()
 
-export default inject
+// Expose to window
+global.inject = inject
