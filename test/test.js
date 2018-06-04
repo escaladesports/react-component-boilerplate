@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 import getPort from 'get-port'
 import Server from 'static-server'
-import { copy } from 'fs-extra'
+import run from 'exec-cmd'
 
 jest.setTimeout(60 * 1000)
 
@@ -10,9 +10,8 @@ describe(`React component inject`, () => {
 	let browser
 	let page
 	beforeAll(async () => {
-		await copy(`./__tests__/inject.html`, `./dist-bundle/index.html`)
 		server = new Server({
-			rootPath: `dist-bundle`,
+			rootPath: `dist-test`,
 			port: await getPort(),
 		})
 		server.start()
