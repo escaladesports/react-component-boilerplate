@@ -1,7 +1,6 @@
 import puppeteer from 'puppeteer'
 import getPort from 'get-port'
 import Server from 'static-server'
-import run from 'exec-cmd'
 
 jest.setTimeout(60 * 1000)
 
