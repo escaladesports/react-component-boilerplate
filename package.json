@@ -17,7 +17,7 @@
     "dev": "gatsby develop --open",
     "build": "rm -rf dist && mkdir dist && babel src/module --out-dir dist",
     "build:gatsby": "gatsby build",
-    "test": "jest",
+    "test": "npm run build && jest",
     "travis": "opn https://travis-ci.org/escaladesports/react-component-boilerplate/branches"
   },
   "jest": {
