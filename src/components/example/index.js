@@ -5,9 +5,10 @@ export default class ExampleComponent extends React.Component {
 		name: `Component`
 	}
 	render() {
+		const props = Object.assign({}, this.props)
 		return (
 			<div className='ExampleComponent'>
-				Example {this.props.name}.
+				Example {props.name}.
 			</div>
 		)
 	}
