@@ -3159,13 +3159,18 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-escalade-sports@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-escalade-sports/-/eslint-config-escalade-sports-0.2.3.tgz#2b02e23bfb939573c715c06cbf240b9bf62044d8"
+eslint-config-escalade-sports@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-escalade-sports/-/eslint-config-escalade-sports-1.0.0.tgz#3afd595c44deb4cca342421aaf91d37d1f94cdbc"
   dependencies:
     babel-eslint "^8.2.6"
+    eslint-plugin-jest "^21.18.0"
     eslint-plugin-jsx-a11y "^6.1.1"
     eslint-plugin-react "^7.10.0"
+
+eslint-plugin-jest@^21.18.0:
+  version "21.18.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.18.0.tgz#d7305969a9c1902f895468791d968fcf08b5c0b7"
 
 eslint-plugin-jsx-a11y@^6.1.1:
   version "6.1.1"
