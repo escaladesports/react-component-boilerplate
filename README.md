@@ -20,6 +20,14 @@ yarn reset
 
 ## Usage
 
+### Basic Usage
+
 - `yarn dev`: Runs [Gatsby](https://www.gatsbyjs.org/) on a local dev server
 - `yarn build`: Builds `src/module` distributable
+
+### Advanced Usage
+
 - `yarn build:gatsby`: Builds gatsby site
+- `yarn test`: Runs tests
+- `yarn lint`: Lints src directory
+- `yarn reset`: Resets git history, version number, and project name
