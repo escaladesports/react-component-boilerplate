@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Example from '../components/example'
 
 export default class HomePage extends React.Component {
 	render() {
 		return (
-			<div>Home Page</div>
+			<Fragment>
+				<div>Home Page</div>
+				<Example />
+			</Fragment>
 		)
 	}
 }
