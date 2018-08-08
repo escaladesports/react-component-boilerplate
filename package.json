@@ -24,6 +24,7 @@
     "babel-plugin-emotion": "^9.2.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "emotion": "^9.2.6",
     "emotion-server": "^9.2.6",
     "gatsby": "^1.9.277",
