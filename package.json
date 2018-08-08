@@ -15,10 +15,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop --open",
+    "build": "rm -rf dist && mkdir dist && babel src/components/example/index.js --out-file dist/index.js",
+    "build:gatsby": "gatsby build",
     "travis": "opn https://travis-ci.org/escaladesports/react-component-boilerplate/branches"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-plugin-emotion": "^9.2.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "emotion": "^9.2.6",
     "emotion-server": "^9.2.6",
     "gatsby": "^1.9.277",
@@ -26,6 +31,8 @@
     "gatsby-plugin-html-attributes": "^1.0.4",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "opn-cli": "^3.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0"
   },
   "dependencies": {}

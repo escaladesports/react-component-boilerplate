@@ -22,7 +22,6 @@ envdotjs-key
 env.js
 .serverless
 _optimize
-.babelrc
 .postcssrc
 ./gatsby-node.js
 ./gatsby-browser.js
