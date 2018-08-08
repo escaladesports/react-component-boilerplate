@@ -11,6 +11,13 @@ yarn
 yarn reset
 ```
 
+## Features
+
+- Compiles with [Babel](https://babeljs.io/)
+- Lints with [ESLint](https://eslint.org/)
+- Tests with [Jest](https://jestjs.io/)
+- Local development and/or project website with [Gatsby](https://www.gatsbyjs.org/)
+
 ## Usage
 
 - `yarn dev`: Runs [Gatsby](https://www.gatsbyjs.org/) on a local dev server
