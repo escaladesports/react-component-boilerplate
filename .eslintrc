@@ -1,6 +1,5 @@
 {
 	"extends": [
-		"escalade-sports",
-		"plugin:jest/recommended"
+		"escalade-sports"
 	]
 }
