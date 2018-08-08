@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop --open",
-    "build": "rm -rf dist && mkdir dist && babel src/components/example/index.js --out-file dist/index.js",
+    "build": "rm -rf dist && mkdir dist && babel src/module --out-dir dist",
     "build:gatsby": "gatsby build",
     "travis": "opn https://travis-ci.org/escaladesports/react-component-boilerplate/branches"
   },

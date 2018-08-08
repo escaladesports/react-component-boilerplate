@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Example from '../components/example'
+import Example from '../module'
 
 export default class HomePage extends React.Component {
 	render() {
