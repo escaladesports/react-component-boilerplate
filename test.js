@@ -1,4 +1,4 @@
-import Example from './src/module'
+import Example from './dist'
 
 test(`Module should exist`, () => {
 	expect(Example).toBeDefined()
