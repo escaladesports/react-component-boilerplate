@@ -8,7 +8,7 @@ export default class ExampleComponent extends React.Component {
 		const props = Object.assign({}, this.props)
 		return (
 			<div className='ExampleComponent'>
-				Example {props.name}.
+				Example {props.name}
 			</div>
 		)
 	}
